@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Kalkulator</title>
+	<style>
+		body{
+        background-color: peachpuff;
+        }
+	</style>
+	<head>
+	<h2 align="center" style="background-image: url(kalku.gif);"><br>KALKULATOR
+	<br><hr color="black"></h2>
+</head>
+<body>
+	<br>
+	<form name="Calc">
+    <table border=4 cellpadding=20 align="center">
+        <tr>
+            <td>
+                <input type="text" name="Input" Size="20">
+                <br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button"  value=" 1 " OnClick="Calc.Input.value += '1'">
+                <input type="button"  value=" 2 " OnCLick="Calc.Input.value += '2'">
+                <input type="button"  value=" 3 " OnClick="Calc.Input.value += '3'">
+                <input type="button"  value=" + " OnClick="Calc.Input.value += ' + '">
+                <br>
+                <input type="button"  value=" 4 " OnClick="Calc.Input.value += '4'">
+                <input type="button"  value=" 5 " OnCLick="Calc.Input.value += '5'">
+                <input type="button"  value=" 6 " OnClick="Calc.Input.value += '6'">
+                <input type="button"  value=" - " OnClick="Calc.Input.value += ' - '">
+                <br>
+                <input type="button"  value=" 7 " OnClick="Calc.Input.value += '7'">
+                <input type="button"  value=" 8 " OnCLick="Calc.Input.value += '8'">
+                <input type="button"  value=" 9 " OnClick="Calc.Input.value += '9'">
+                <input type="button"  value=" x " OnClick="Calc.Input.value += ' * '">
+                <br>
+                <input type="button"  value=" c " OnClick="Calc.Input.value = ''">
+                <input type="button"  value=" 0 " OnClick="Calc.Input.value += '0'">
+                <input type="button"  value=" = " OnClick="Calc.Input.value = eval(Calc.Input.value)">
+                <input type="button"  value=" / " OnClick="Calc.Input.value += ' / '">
+                <br>
+            </td>
+        </tr>
+    </table>
+</form>
+<br>
+<h3 align="center"><a href="menu.html">!!! Back To Menu !!!</a></h3>
+<p align="center"><img src="meja.gif" width="200" height="150"></p>
+</body>
+</html>

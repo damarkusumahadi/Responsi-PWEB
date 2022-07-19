@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>INPUT/OUTPUT</title>
+	<style>
+        body{
+        background-color: peachpuff;
+        }
+    </style>
+    <head>
+    <h2 align="center" style="background-image: url(ngetik.gif);"><br>INPUT/OUTPUT
+    <br><hr color="black"></h2>
+
+</head>
+<body>
+	<br>
+	<div align="center"><strong><font size="5">Data Mahasiswa</font></strong></div>
+    <br>
+    <form name="form1" method="post" action="prosess.php">
+    <table width="58%" border="0" align="center">
+        <tr>
+            <td>Nama</td>
+            <td><input type="text" name="nama" id="nama" required></td>
+        </tr>
+
+        <tr>
+            <td>NIM</td>
+            <td><input type="text" name="nim" id="nim" required></td>
+        </tr>
+
+        <tr>
+            <td>Kelas</td>
+            <td><select name="kelas" id="kelas" required>
+            <option>A</option>
+            <option>B</option>
+            <option>C</option>
+            <option>D</option>
+            <option>E</option>
+            <option>F</option>
+        </select></td>
+        </tr>
+
+        <tr>
+            <td>Prodi</td>
+            <td><input type="text" name="prodi" id="prodi" required></td>
+        </tr>
+
+        <tr>
+            <td>Angkatan</td>
+            <td><select name="angkatan" id="angkatan" required>
+            <option>2019</option>
+            <option>2020</option>
+            <option>2021</option>
+        </select></td>
+        </tr>
+
+        <tr>
+            <td>&nbsp;</td>
+            <td><input type="submit" name="submit" value="Kirim"><input type="reset" name="submit2" value="Batal"></td>
+        </tr>
+    </table>    
+</form><br>
+<div align="center"><strong><a href="lihatt.php">::Lihat Data::</a></strong></div>
+<h3 align="center"><a href="menu.html">!!! Back To Menu !!!</a></h3>
+<p align="center"><img src="nezuko.gif" width="200" height="150"></p>
+</body>
+</html>
